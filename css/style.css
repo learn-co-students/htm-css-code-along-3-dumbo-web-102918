@@ -1,0 +1,34 @@
+/*this is a comment*/
+
+/* CSS Syntax
+selector {
+property: value;
+property: value;
+property: value;
+}
+*/
+
+/* Type selector */
+
+p{ /* select all <p> */
+  font-size: 1em; /* 16 pizels is default so could say font-size: 16 px;
+  he doesn't like points as they are different in each browser
+  can use percentage 100% --relative to element and parents
+  he likes 1em the best  --width of letter m could be 16px but could vary,
+  formulas is no of pixels/16= no of em
+  */
+  line-height: 1.5em; /* 1 1/2 times size of text */
+
+  }
+
+figcaption {
+  font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: Georgia, "New Times Roman"; serif;
+  font: normal 0.75em/1.5em Georgia, "New Times Roman"; serif;
+/* figcaption is for caption underneath video and audio
+note picks three font families as choice if doesnt have the first one
+if font has space , make it a string with quotes.
+  */  
+}
